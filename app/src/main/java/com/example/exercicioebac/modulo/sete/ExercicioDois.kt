@@ -19,3 +19,5 @@ enum class DayOfWeek(val relacao: String){
     SABADO ("sábado"),
     DOMINGO ("domingo")
 }
+
+
