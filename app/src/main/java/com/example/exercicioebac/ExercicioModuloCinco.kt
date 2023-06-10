@@ -15,15 +15,9 @@ fun main() {
 
 class Veiculo{
 
-    var velocity: Long
-    var acceleration: Long
-    var model: String
-
-    init {
-        this.velocity = 0
-        this.acceleration = 10
-        this.model = ""
-    }
+    var velocity: Long = 0
+    var acceleration: Long = 10
+    var model: String = ""
 
     fun accele(aumont: Long){
         acceleration = acceleration + aumont
